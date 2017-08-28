@@ -112,6 +112,10 @@ static SlideNavigationController *singletonInstance;
 	return self;
 }
 
+-(void)loadView {
+    [super loadView];
+}
+
 - (void)setup
 {
 	if (singletonInstance)
